@@ -1,0 +1,4 @@
+.env
+LLM_Wiki_vault
+venv
+__pycache__
