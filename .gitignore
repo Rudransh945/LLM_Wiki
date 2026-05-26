@@ -1,4 +1,26 @@
+# Environment
 .env
-LLM_Wiki_vault
-venv
-__pycache__
+venv/
+
+# Database
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# VS Code
+.vscode/
+
+# Obsidian vault (your personal knowledge — don't push this)
+LLM_Wiki_vault/
+
+# FAISS index (will be generated locally)
+*.index
+*.faiss
+
+# Logs
+*.log
